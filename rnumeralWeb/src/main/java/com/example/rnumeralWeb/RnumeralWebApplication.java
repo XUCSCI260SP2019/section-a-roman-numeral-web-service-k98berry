@@ -14,10 +14,10 @@ public class RnumeralWebApplication {
 
 	@GetMapping("/decode/{id}")
 
-	public ResponseSingleDecode encode(@PathVariable("id") String num) {
+	public ResponseSingleDecode encode(@PathVariable("id") String L) {
 		ResponseSingleDecode response = new ResponseSingleDecode();
 
-		response.setLetter(num);
+		response.setNumber(rNumeralLibrary.decode(L));
 
 		return response;
 	}

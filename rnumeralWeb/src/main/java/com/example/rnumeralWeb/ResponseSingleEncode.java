@@ -1,7 +1,7 @@
 package com.example.rnumeralWeb;
 
 public class ResponseSingleEncode {
-    private Integer number;
-    public Integer getNumber() {return number; }
-    public void setNumber(Integer num) { number = num; }
+    private String Letter;
+    public String getLetter() {return Letter; }
+    public void setLetter(String L) { Letter = L; }
 }

@@ -1,13 +1,13 @@
 package com.example.rnumeralWeb;
 
 public class ResponseMultiEncode {
-    private Integer number1;
-    public Integer getNumber1() {return number1; }
-    public void setNumber1(Integer num) { number1 = num; }
-    private Integer number2;
-    public Integer getNumber2() {return number2; }
-    public void setNumber2(Integer num) { number2 = num; }
-    private Integer number3;
-    public Integer getNumber3() {return number3; }
-    public void setNumber3(Integer num) { number3 = num; }
+    private String Letter1;
+    public String getLetter1() {return Letter1; }
+    public void setLetter1(String L) { Letter1 = L; }
+    private String Letter2;
+    public String getLetter2() {return Letter2; }
+    public void setLetter2(String L) { Letter2 = L; }
+    private String Letter3;
+    public String getLetter3() {return Letter3; }
+    public void setLetter3(String L) { Letter3 = L; }
 }
