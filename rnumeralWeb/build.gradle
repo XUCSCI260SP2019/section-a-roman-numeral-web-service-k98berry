@@ -18,5 +18,5 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	implementation 'edu.xavier.csci.rNumeralLibrary:1.0'
+	implementation 'edu.xavier.csci.k98berry:rNumeralLibrary:0.0.1'
 }
