@@ -14,6 +14,19 @@ public class RnumeralWebApplication {
 		SpringApplication.run(RnumeralWebApplication.class, args);
 	}
 
+	@PostMapping(path = "/decode", method = getdecodevalues.POST)
+
+	public int ResponseMultiDecode(@PathVariable( String a , String b, String c]))
+	{
+
+	}
+
+	@PostMapping(path = "/encode", method = getencodevalues.POST)
+	public String ResponseMultiEncode(@PathVariable (int a, int b, int c))
+	{
+
+	}
+
 	@GetMapping("/decode/{id}")
 
 	public ResponseSingleDecode encode(@PathVariable("id") String L) {
